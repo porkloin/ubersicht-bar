@@ -8,6 +8,6 @@ render: (output) ->
 style: """
     bottom: 2px
     color: #c0c5ce
-    font: 14px Menlo
-    left: 40px
+    font: 13px Menlo
+    left: 35px
 """

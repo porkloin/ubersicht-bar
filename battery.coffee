@@ -9,5 +9,5 @@ style: """
     bottom: 2px
     color: #c0c5ce
     font: 14px Menlo
-    right: 160px
+    right: 165px
 """

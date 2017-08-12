@@ -1,9 +1,9 @@
 refreshFrequency: "1s"
 
-command: "/usr/local/bin/chunkc tiling::query --desktop mode | cut -c 1-3"
+command: "/usr/local/bin/chunkc tiling::query --desktop mode"
 
 render: (output) ->
-    "#{output}"
+    "#{output}".substr(0, 3)
 
 style: """
     bottom: 2px

@@ -6,8 +6,8 @@ render: (output) ->
     "#{output}"
 
 style: """
-    right: 5px
     bottom: 2px
-    font: 14px Menlo
     color: #c0c5ce
+    font: 14px Menlo
+    right: 5px
 """

@@ -3,7 +3,7 @@ refreshFrequency: "1s"
 command: "date '+%F %R'"
 
 render: (output) ->
-    "#{output}"
+    "• #{output}"
 
 style: """
     bottom: 2px

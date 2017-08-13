@@ -11,7 +11,12 @@ git clone git@github.com:srstevenson/ubersicht-bar.git \
 ```
 
 The constituent widgets assume [`chunkc`][chunkc] is installed as
-`/usr/local/bin/chunkc`.
+`/usr/local/bin/chunkc`. `chunkwm` can be configured to reserve space for the
+bar by adding the following to `~/.chunkwmrc`:
+
+```sh
+chunkc set global_desktop_offset_bottom 20
+```
 
 [chunkc]: https://github.com/koekeishiya/chunkwm/tree/master/src/chunkc
 [chunkwm]: https://github.com/koekeishiya/chunkwm

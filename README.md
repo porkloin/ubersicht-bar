@@ -1,5 +1,7 @@
 # Übersicht bar
 
+![Screenshot](https://user-images.githubusercontent.com/5845679/29251744-9993ea68-8052-11e7-891b-56903ad0582b.png)
+
 A status bar for [`chunkwm`][chunkwm], implemented with [Übersicht][ubersicht].
 After installing Übersicht, clone the repository with:
 

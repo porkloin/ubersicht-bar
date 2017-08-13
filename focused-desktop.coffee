@@ -1,13 +1,13 @@
 refreshFrequency: "1s"
 
-command: "/usr/local/bin/chunkc tiling::query --desktop mode"
+command: "/usr/local/bin/chunkc tiling::query --desktop id"
 
 render: (output) ->
-    "• " + "#{output}".substr(0, 3)
+    "#{output}"
 
 style: """
     bottom: 2px
     color: #c0c5ce
     font: 13px Menlo
-    left: 18px
+    left: 6px
 """

@@ -1,4 +1,4 @@
-refreshFrequency: "1s"
+refreshFrequency: ".25s"
 
 command: "osascript -e 'tell application \"System Events\"' -e 'set frontApp to name of first application process whose frontmost is true' -e 'end tell'"
 

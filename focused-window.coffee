@@ -1,13 +1,13 @@
 refreshFrequency: "1s"
 
-command: "/usr/local/bin/chunkc tiling::query --window tag"
+command: "osascript -e 'tell application \"System Events\"' -e 'set frontApp to name of first application process whose frontmost is true' -e 'end tell'"
 
 render: (output) ->
-    "• #{output}"
+    "#{output}"
 
 style: """
-    bottom: 2px
-    color: #c0c5ce
-    font: 13px Menlo
-    left: 65px
+    top: 11px
+    color: #ebdbb2
+    font: 13px Fira Code
+    left: 3.5%
 """

@@ -6,8 +6,8 @@ render: (output) ->
     "#{output}"
 
 style: """
-    bottom: 2px
-    color: #c0c5ce
-    font: 13px Menlo
-    right: 155px
+    top: 11px
+    color: #ebdbb2
+    font: 13px Fira Code
+    right: 13%
 """

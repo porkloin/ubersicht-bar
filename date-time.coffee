@@ -3,11 +3,11 @@ refreshFrequency: "1s"
 command: "date '+%F %R'"
 
 render: (output) ->
-    "• #{output}"
+    " #{output}"
 
 style: """
-    bottom: 2px
-    color: #c0c5ce
-    font: 13px Menlo
-    right: 5px
+    top: 11px
+    color: #ebdbb2
+    font: 13px Fira Code
+    right: 4%
 """

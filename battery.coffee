@@ -9,5 +9,5 @@ style: """
     top: 11px
     color: #ebdbb2
     font: 13px Fira Code
-    right: 13%
+    right: 15.25%
 """

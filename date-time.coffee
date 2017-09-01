@@ -1,6 +1,6 @@
 refreshFrequency: "1s"
 
-command: "date '+%F %R'"
+command: "date '+%F %r'"
 
 render: (output) ->
     " #{output}"
